@@ -18,12 +18,12 @@ data: 2020-02-09 01:01:01 +0800
 > > `on-simplicity-in-technology.markdown`
 >
 > `_includes`：**加载**`_includes`**包含部分到布局或者文章中以方便重用**。
-> >(可以用这个标签 `{% include file.ext %}` 来把文件 `_includes/file.ext`包含进来。) 
+> >(可以用这个标签 ` include file.ext ` 来把文件 `_includes/file.ext`包含进来。) 
 > > `footer.html`
 > > `header.html`
 >
 > `_layouts`：**包裹在文章外部的模板**。
-> >(布局可以在 `YAML` 头信息中根据不同文章进行选择。标签 `{{ content }}` 可以将`content`插入页面中。) 
+> >(布局可以在 `YAML` 头信息中根据不同文章进行选择。标签 `content` 可以将`content`插入页面中。) 
 > > `default.html`
 > > `post.html`
 > 
