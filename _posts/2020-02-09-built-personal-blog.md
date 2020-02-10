@@ -3,7 +3,7 @@ layout: post
 title: "Build Personal Blog bases On Github and Jekyll"
 data: 2020-02-09 01:01:01 +0800
 categories: Default
-tags: test Test
+tags: test
 ---
 
 # Jekyell
