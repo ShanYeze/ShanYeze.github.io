@@ -6,10 +6,6 @@ categories: Default
 tags: test Test
 ---
 
-* content
-{:toc}
-
-
 # Jekyell
 ## Construction
 > `_config.yml`：**保存配置数据**
