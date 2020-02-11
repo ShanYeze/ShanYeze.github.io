@@ -6,7 +6,10 @@ categories: Default
 tags: test
 ---
 
-# Jekyell
+# Jekyll
+
+关于使用Jekyll+Gitpage搭建Blog的内容，陆续更新（先挖个坑）
+
 ## Construction
 > `_config.yml`：**保存配置数据**
 > >(配置选项可以直接在命令行中进行设置，将配置数据保存在`_config.yml`中就不用记住那些命令了。)
