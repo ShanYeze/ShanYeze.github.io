@@ -1,9 +1,26 @@
 title: Songze's BLOG
-
 url: https://ShanYeze.github.io
 permalink: /:year/:month/:day/:title
+#description: > # this means to ignore newlines until "baseurl:"
+repository: ShanYeze
+paginate: 5
 
+# MatJek specific configurations
 github_profile: "https://github.com/ShanYeze"
 user: "ShanYe"
 user_email: "z2435541080@163.com"
 
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+sass:
+  style: compressed
+future: true
