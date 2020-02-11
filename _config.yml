@@ -3,8 +3,8 @@ url: https://ShanYeze.github.io
 permalink: /:year/:month/:day/:title
 #description: > # this means to ignore newlines until "baseurl:"
 repository: ShanYeze
-paginate: 5
-
+paginate: 20
+per_page: 20
 # MatJek specific configurations
 github_profile: "https://github.com/ShanYeze"
 user: "ShanYe"
