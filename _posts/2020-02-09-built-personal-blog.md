@@ -6,9 +6,9 @@ categories: Default
 tags: test
 ---
 
-# Jekyll
-
 关于使用Jekyll+Gitpage搭建Blog的内容，陆续更新（先挖个坑）
+
+# Jekyll
 
 ## Construction
 > `_config.yml`：**保存配置数据**
