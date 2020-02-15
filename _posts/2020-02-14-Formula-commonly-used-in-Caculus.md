@@ -22,10 +22,14 @@ tags: test
 ## 极限   
 ---
 ### 基本极限
-$\lim\limits_{x\rightarrow0}\dfrac{\sin x}{x}=1$, $\lim\limits_{x\rightarrow0}\left(1+x\right)^{\frac{1}{x}}=e$, $\lim\limits_{x\rightarrow\infty}\left(1+\dfrac{1}{x}\right)^x=e$, 
-$\lim\limits_{x\rightarrow0}\dfrac{a^x-1}{x}=\ln a$,  $\lim\limits_{n\rightarrow\infty}\sqrt[n]{n}=1$,  $\lim\limits_{n\rightarrow\infty}\sqrt[n]{a}=1(a>0)$.
-$\lim\limits_{x\rightarrow\infty}\dfrac{a_nx^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0}{b_mx^m+b_{m-1}x^{m-1}+\cdots+b_1x+b_0}=\begin{cases} \dfrac{a_n}{b_m},&n=m\\ 0,&n<m\\\infty,&n>m\end{cases}$
-$\lim\limits_{n\rightarrow\infty}=\begin{cases}0,&|x|<1\\\infty,&|x|>1\\1,&x=1\\\text{不存在},&x=-1\end{cases}$, $\lim\limits_{n\rightarrow\infty}e^{nx}=\begin{cases}0,&x<0\\+\infty,&x>0\\1,&x=0\end{cases}$
+$\lim\limits_{x\rightarrow0}\dfrac{\sin x}{x}=1$
+$\lim\limits_{x\rightarrow0}\left(1+x\right)^{\frac{1}{x}}=e$
+$\lim\limits_{x\rightarrow\infty}\left(1+\dfrac{1}{x}\right)^x=e$
+$\lim\limits_{x\rightarrow0}\dfrac{a^x-1}{x}=\ln a$,  $\lim\limits_{n\rightarrow\infty}\sqrt[n]{n}=1$
+$\lim\limits_{n\rightarrow\infty}\sqrt[n]{a}=1(a>0)$
+$\lim\limits_{x\rightarrow\infty}\dfrac{a_nx^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0}{b_mx^m+b_{m-1}x^{m-1}+\cdots+b_1x+b_0}=\begin{cases} \dfrac{a_n}{b_m},&n=m\\ 0,&n<m \\ \infty,&n>m\end{cases}$
+$\lim\limits_{n\rightarrow\infty}=\begin{cases}0,&|x|<1 \\ \infty,&|x|>1 \\ 1,&x=1 \\ \text{不存在},&x=-1\end{cases}$
+$\lim\limits_{n\rightarrow\infty}e^{nx}=\begin{cases}0,&x<0 \\ +\infty,&x>0 \\ 1,&x=0\end{cases}$
 
 ### 常用等价无穷小
 当$x\rightarrow0$时，以下等价关系成立：
@@ -39,7 +43,7 @@ $\arcsin x-x\sim\dfrac{1}{6}x^3$, $x-\arctan x\sim\dfrac{1}{3}x^3$
 ---
 ### 基本初等函数导数公式
 |基本初等|函数|一阶导数|
-|:-:|:-:|:-:|
+|--|--|--|
 |$(C)^\prime=0$||$(x^\alpha)^\prime=\alpha x^{\alpha-1}$|
 |$(a^x)^\prime=a^x\ln a$, $(e)$||$(e^x)^\prime=e^x$|
 |$(\log_ax)^\prime=\dfrac{1}{x\ln a}$||$\left( \ln\vert x\vert\right)^\prime=\dfrac{1}{x}$|
@@ -73,7 +77,7 @@ $f(x)=f(x_0)+f^\prime(x_0)(x-x_0)+\dfrac{1}{2!}f^{\prime\prime}(x_0)(x-x_0)^2+\c
 ---
 ### 不定积分基本公式
 |不定积分||不定积分|
-|:-|:-:|:-|
+|--|--|--|
 |$\int0dx=C$||$\int x^2dx=\dfrac{1}{a+1}x^{a+1}+C(a\neq1)$
 |$\int\dfrac{1}{x}dx=\ln\vert x\vert+C$||$\int a^xdx=\dfrac{a^x}{\ln a}+C(a>0,a\neq1)$|
 |$\int\limits e^xdx=e^x+C$||$\int\sin xdx=-\cos x+C$|
@@ -99,5 +103,7 @@ $f(x)=f(x_0)+f^\prime(x_0)(x-x_0)+\dfrac{1}{2!}f^{\prime\prime}(x_0)(x-x_0)^2+\c
 
 
 #### 定积分公式
-(1) 华理士公式（点火公式）$$\int_0^{\frac{\pi}{2}}\sin^nxdx=\int_0^{\frac{\pi}{2}}\cos^nxdx=\begin{cases}\dfrac{n-1}{n}\dfrac{n-3}{n-2}\cdots\dfrac{1}{2}\dfrac{\pi}{2}, &n\text{为偶数}\\ \dfrac{n-1}{n}\dfrac{n-3}{n-2}\cdots\dfrac{2}{3},&n\text{为大于1的奇数}\end{cases}$$
+(1) 华理士公式（点火公式）
+$$\int_0^{\frac{\pi}{2}}\sin^nxdx=\int_0^{\frac{\pi}{2}}\cos^nxdx=\begin{cases}\dfrac{n-1}{n}\dfrac{n-3}{n-2}\cdots\dfrac{1}{2}\dfrac{\pi}{2}, &n\text{为偶数}\\ \dfrac{n-1}{n}\dfrac{n-3}{n-2}\cdots\dfrac{2}{3},&n\text{为大于1的奇数}\end{cases}$$
+
 (2) $\int_0^\pi xf(\sin x)dx=\dfrac{\pi}{2}\int_0^\pi f(\sin x)dx\quad(\text{其中}f(x)\text{连续})$
