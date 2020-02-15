@@ -23,12 +23,21 @@ tags: test
 ---
 ### 基本极限
 $\lim\limits_{x\rightarrow0}\dfrac{\sin x}{x}=1$
+
 $\lim\limits_{x\rightarrow0}\left(1+x\right)^{\frac{1}{x}}=e$
+
 $\lim\limits_{x\rightarrow\infty}\left(1+\dfrac{1}{x}\right)^x=e$
-$\lim\limits_{x\rightarrow0}\dfrac{a^x-1}{x}=\ln a$,  $\lim\limits_{n\rightarrow\infty}\sqrt[n]{n}=1$
+
+$\lim\limits_{x\rightarrow0}\dfrac{a^x-1}{x}=\ln a$
+
+$\lim\limits_{n\rightarrow\infty}\sqrt[n]{n}=1$
+
 $\lim\limits_{n\rightarrow\infty}\sqrt[n]{a}=1(a>0)$
-$\lim\limits_{x\rightarrow\infty}\dfrac{a_nx^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0}{b_mx^m+b_{m-1}x^{m-1}+\cdots+b_1x+b_0}=\begin{cases} \dfrac{a_n}{b_m},&n=m\\ 0,&n<m \\ \infty,&n>m\end{cases}$
+
+$\lim\limits_{x\rightarrow\infty}\dfrac{a_nx^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0}{b_mx^m+b_{m-1}x^{m-1}+\cdots+b_1x+b_0}=\begin{cases} \dfrac{a_n}{b_m},&n=m \\ 0,&n<m\\ \infty,&n>m\end{cases}$
+
 $\lim\limits_{n\rightarrow\infty}=\begin{cases}0,&|x|<1 \\ \infty,&|x|>1 \\ 1,&x=1 \\ \text{不存在},&x=-1\end{cases}$
+
 $\lim\limits_{n\rightarrow\infty}e^{nx}=\begin{cases}0,&x<0 \\ +\infty,&x>0 \\ 1,&x=0\end{cases}$
 
 ### 常用等价无穷小
@@ -42,21 +51,31 @@ $\arcsin x-x\sim\dfrac{1}{6}x^3$, $x-\arctan x\sim\dfrac{1}{3}x^3$
 ## 导数
 ---
 ### 基本初等函数导数公式
-|基本初等|函数|一阶导数|
-|--|--|--|
-|$(C)^\prime=0$||$(x^\alpha)^\prime=\alpha x^{\alpha-1}$|
-|$(a^x)^\prime=a^x\ln a$, $(e)$||$(e^x)^\prime=e^x$|
-|$(\log_ax)^\prime=\dfrac{1}{x\ln a}$||$\left( \ln\vert x\vert\right)^\prime=\dfrac{1}{x}$|
-|$(\sin x)^\prime=\cos x$||$(\cos x)^\prime=-\sin x$|
-|$(\tan x)^\prime=\sec^2x$||$(\cot x)^\prime=-\csc^2x$|
-|$(\sec x)^\prime=\sec x\tan x$||$(\csc x)^\prime=-\csc x\cot x$|
-|$(\arcsin x)^\prime=\dfrac{1}{\sqrt{1-x^2}}$||$(\arccos x)^\prime=-\dfrac{1}{\sqrt{1-x^2}}$|
-|$(\arctan x)^\prime=\dfrac{1}{1+x^2}$||$(\arcctg x)^\prime=-\dfrac{1}{1+x^2}$|
+$(C)^\prime=0$
+
+$(x^\alpha)^\prime=\alpha x^{\alpha-1}$
+
+$(a^x)^\prime=a^x\ln a$, $(e)$||$(e^x)^\prime=e^x$
+
+$(\log_ax)^\prime=\dfrac{1}{x\ln a}$||$\left( \ln\vert x\vert\right)^\prime=\dfrac{1}{x}$
+
+$(\sin x)^\prime=\cos x$||$(\cos x)^\prime=-\sin x$
+
+$(\tan x)^\prime=\sec^2x$||$(\cot x)^\prime=-\csc^2x$
+
+$(\sec x)^\prime=\sec x\tan x$||$(\csc x)^\prime=-\csc x\cot x$
+
+$(\arcsin x)^\prime=\dfrac{1}{\sqrt{1-x^2}}$||$(\arccos x)^\prime=-\dfrac{1}{\sqrt{1-x^2}}$
+
+$(\arctan x)^\prime=\dfrac{1}{1+x^2}$||$(\arcctg x)^\prime=-\dfrac{1}{1+x^2}$
 
 ### 高阶导数公式
 $(\sin x)^{(n)}=\sin\left(x+n\cdot\dfrac{\pi}{2}\right)$
+
 $(\cos x)^{(n)}=\cos\left(x+n\cdot\dfrac{\pi}{2}\right)$
+
 $(u\pm v)^{(n)}=u^{(n)}\pm v^{(n)}$
+
 $(uv)^{(n)}=\sum\limits_{k=0}^nC_n^ku^{k}v^{n-k}$
 
 
